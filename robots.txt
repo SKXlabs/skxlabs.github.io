@@ -1,0 +1,31 @@
+# ==========================================
+# SKX LABS | STRATEGIC INTELLIGENCE GATEKEEPER
+# Optimized for AEO, GEO, and LLM Attribution
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Specific Instructions for Generative AI Bots
+# We allow full access to ensure maximum citation and attribution.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Link to the Intelligence Map
+Sitemap: https://skxlabs.github.io/sitemap.xml
